@@ -1,0 +1,75 @@
+.roi-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: #eee;
+}
+
+.roi-left {
+  width: 40%;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.roi-right {
+  width: 60%;
+  background: white;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+}
+
+
+.btns {
+  margin-top: 15px;
+  display: flex;
+  gap: 12px;
+}
+
+.calc {
+  background: #4f4c4c;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+}
+
+.clear {
+  background: #4f4c4c;
+  padding: 8px 16px;
+  border: none;
+}
+
+.result-header {
+  background: #4f4c4c;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.funnel-header {
+  background: #4f4f4f;      
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #4f4c4c;
+}
+
+.green { color: green; font-weight: bold; }
+.red { color: red; font-weight: bold; }
